@@ -1,0 +1,61 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MSLC Data
+message: Data and figures for MSLC — Données et figures pour MSLC
+type: software
+authors:
+  - given-names: Rebecca
+    family-names: Knowles
+    email: Rebecca.Knowles@nrc-cnrc.gc.ca
+    affiliation: National Research Council Canada
+  - given-names: Samuel
+    family-names: Larkin
+    email: Samuel.Larkin@nrc-cnrc.gc.ca
+    affiliation: National Research Council Canada
+    orcid: 'https://orcid.org/0009-0000-6147-9631'
+  - given-names: Chi-kiu
+    family-names: Lo
+    affiliation: National Research Council Canada
+    email: ChiKiu.Lo@nrc-cnrc.gc.ca
+repository-code: 'https://github.com/nrc-cnrc/MSLC'
+abstract: >-
+  This repository contains data and additional figures associated with the
+  Metric Score Landscape Challenge (MSLC).
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  authors:
+  - given-names: Rebecca
+    family-names: Knowles
+    email: Rebecca.Knowles@nrc-cnrc.gc.ca
+    affiliation: National Research Council Canada
+  - given-names: Samuel
+    family-names: Larkin
+    email: Samuel.Larkin@nrc-cnrc.gc.ca
+    affiliation: National Research Council Canada
+    orcid: 'https://orcid.org/0009-0000-6147-9631'
+  - given-names: Chi-kiu
+    family-names: Lo
+    affiliation: National Research Council Canada
+    email: ChiKiu.Lo@nrc-cnrc.gc.ca
+  journal: "Proceedings of the Ninth Conference on Machine Translation"
+  month: 11
+  start: 475 # First page number
+  end: 491 # Last page number
+  title: "{MSLC}24: Further Challenges for Metrics on a Wide Landscape of Translation Quality"
+  year: 2024
+  abstract: "In this second edition of the Metric Score Landscape Challenge (MSLC), we examine how automatic metrics for machine translation perform on a wide variety of machine translation output, ranging from very low quality systems to the types of high-quality systems submitted to the General MT shared task at WMT. We also explore metric results on specific types of data, such as empty strings, wrong- or mixed-language text, and more. We raise several alarms about inconsistencies in metric scores, some of which can be resolved by increasingly explicit instructions for metric use, while others highlight technical flaws."
+  editors:
+    - given-names: Barry
+      family-names: Haddow
+    - given-names: Tom
+      family-names: Kocmi
+    - given-names: Philipp
+      family-names: Koehn
+    - given-names: Christof
+      family-names: Monz
+  repository: https://aclanthology.org/2024.wmt-1.34/
+  repository-code: https://aclanthology.org/2024.wmt-1.34/
+  url: https://aclanthology.org/2024.wmt-1.34/
