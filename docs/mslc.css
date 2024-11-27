@@ -5,7 +5,7 @@ body {
 /* [Create REsponsive CCS Grid Layouts with GRID WRAPPING](https://youtu.be/3T0gjtXRNC0?si=hNJ33YFBpluz1kvs) */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
   column-gap: 10px;
   row-gap: 15px;
 }
