@@ -5,10 +5,13 @@
 # mkdocs serve
 site_name: Figures for MSLC — Figures pour MSLC
 site_url: https://nrc-cnrc.github.io/MSLC
-repo_url: https://github.com/nrc-cnrc/MSLC
+site_description: Data and figures for MSLC — Données et figures pour MSLC
 repo_name: NRC-CNRC / MSLC
+repo_url: https://github.com/nrc-cnrc/MSLC
+copyright: CC-BY-4.0 license
 theme:
   name: material
+  locale: en
   favicon: favicon-32x32.png
   palette:
     # Palette toggle for dark mode
