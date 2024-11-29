@@ -73,6 +73,7 @@ function graph(data, selector, sort_order_selector) {
           channels: {
             "ci low": ({ score, ci_low }) => score - ci_low,
             "ci high": ({ score, ci_high }) => score + ci_high,
+            "error bars": ({ score, ci_low, ci_high }) => `[${score - ci_low}, ${score + ci_high}]`,
           },
           x: "system_id",
           y: "score",
@@ -129,7 +130,7 @@ function populate_sort_order_dropdown(selector, sort_order_selector, data, updat
     }
     )
     // Default value has to be set after `<select>` is created and populated.
-    .property("value", "BLEU");
+    .property("value", "MQM");
 }
 
 
