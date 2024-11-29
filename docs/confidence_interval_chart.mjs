@@ -69,10 +69,16 @@ function graph(data, selector, sort_order_selector) {
         // Plot.axisY(d3.ticks(0, 1, 10)),
         // Add metric's score per system.
         Plot.dot(data.values, {
-          tip: true,
+          tip: {
+            format: {
+              "system_id": true,
+              "score": true,
+              "error bars": true,
+            }
+          },
           channels: {
-            "ci low": ({ score, ci_low }) => score - ci_low,
-            "ci high": ({ score, ci_high }) => score + ci_high,
+            system_id: "system_id",
+            score: "score",
             "error bars": ({ score, ci_low, ci_high }) => `[${score - ci_low}, ${score + ci_high}]`,
           },
           x: "system_id",
