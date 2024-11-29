@@ -16,8 +16,11 @@
     ></script>
   </head>
   <body>
-    <section>
-      <h1>MSLC 2024 Interactive Figures</h1>
+    <section id="description" class="md-typeset">
+      <h1>
+        MSLC 2024 Interactive Figures
+        <a class="headerlink" href="#description" title="Permanent link">¶</a>
+      </h1>
       <p>
         This page contains interactive figures associated with the
         <a href="https://aclanthology.org/2024.wmt-1.34/">MSLC24 paper</a>: the
@@ -27,8 +30,11 @@
       </p>
     </section>
 
-    <section>
-      <h1>Matrix</h1>
+    <section id="matrix" class="md-typeset">
+      <h1>
+        Matrix
+        <a class="headerlink" href="#matrix" title="Permanent link">¶</a>
+      </h1>
       <p>
         Matrix of segment-level scores for <span id="matrix_langpair"></span>.
         Along the diagonal are stacked histograms of segment scores across the
@@ -66,11 +72,14 @@
           data-toggle="buttons"
         ></div>
       </div>
-      <div id="matrix"></div>
+      <div id="matrix_plots"></div>
     </section>
 
-    <section>
-      <h1>System Averages</h1>
+    <section id="averages" class="md-typeset">
+      <h1>
+        System Averages
+        <a class="headerlink" href="#averages" title="Permanent link">¶</a>
+      </h1>
       <p>
         System average scores for <span id="ci_langpair"></span>. MSLC systems
         (cool colours, left) are ordered by BLEU score and brief manual
@@ -93,17 +102,20 @@
         <div>
           Sort order for systems submitted to WMT2024:
           <select
-            name="ci_sort_order"
-            id="ci_sort_order"
+            name="averages_sort_order"
+            id="averages_sort_order"
             title="Sort order for systems submitted to WMT2024"
           ></select>
         </div>
       </div>
-      <div id="confidence_interval" class="grid-container"></div>
+      <div id="averages_plots" class="grid-container"></div>
     </section>
 
-    <section>
-      <h1>Empty Input or Empty Hypothesis</h1>
+    <section id="empties" class="md-typeset">
+      <h1>
+        Empty Input or Empty Hypothesis
+        <a class="headerlink" href="#empties" title="Permanent link">¶</a>
+      </h1>
       <p>
         Each subfigure shows the scores assigned to the 10 items in each
         category, with the vertical red lines indicating the lowest and highest
@@ -128,22 +140,34 @@
           title="Available language pairs"
         >
           <optgroup label="Empty Input">
-            <option value="emptyinput-en-de">English→German (empty input)</option>
-            <option value="emptyinput-en-es">English→Spanish (empty input)</option>
-            <option value="emptyinput-ja-zh">Japanese→Chinese (empty input)</option>
+            <option value="emptyinput-en-de">
+              English→German (empty input)
+            </option>
+            <option value="emptyinput-en-es">
+              English→Spanish (empty input)
+            </option>
+            <option value="emptyinput-ja-zh">
+              Japanese→Chinese (empty input)
+            </option>
           </optgroup>
           <optgroup label="Empty Output">
-            <option value="emptyoutput-en-de">English→German (empty hypothesis)</option>
-            <option value="emptyoutput-en-es">English→Spanish (empty hypothesis)</option>
-            <option value="emptyoutput-ja-zh">Japanese→Chinese (empty hypothesis)</option>
+            <option value="emptyoutput-en-de">
+              English→German (empty hypothesis)
+            </option>
+            <option value="emptyoutput-en-es">
+              English→Spanish (empty hypothesis)
+            </option>
+            <option value="emptyoutput-ja-zh">
+              Japanese→Chinese (empty hypothesis)
+            </option>
           </optgroup>
         </select>
       </div>
-      <div id="pwps" class="grid-container"></div>
+      <div id="empties_plots" class="grid-container"></div>
     </section>
 
     <!--
-    <section>
+    <section id="wrong" class="md-typeset">
       <h1>Wrong</h1>
       <p>
         eng→deu: Number of times (out of 10) that the metric scored refB higher
@@ -164,7 +188,7 @@
         document.getElementById("matrix_langpair").textContent =
           e.target.options[e.target.selectedIndex].text;
         await plot(
-          "#matrix",
+          "#matrix_plots",
           "#matrix_metrics",
           `hum-matrix/hum-${selected}-matrix`,
         );
@@ -183,8 +207,8 @@
         document.getElementById("ci_langpair").textContent =
           e.target.options[e.target.selectedIndex].text;
         await plot(
-          "#confidence_interval",
-          "#ci_sort_order",
+          "#averages_plots",
+          "#averages_sort_order",
           `hum-sysavg/hum-${selected}-sysavg`,
         );
       };
@@ -202,7 +226,7 @@
         document.getElementById("pwps_langpair").textContent =
           e.target.options[e.target.selectedIndex].text;
         await plot(
-          "#pwps",
+          "#empties_plots",
           `empties/${selected}-data`,
           `empties/${selected}-metricminmax`,
         );
