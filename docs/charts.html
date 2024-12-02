@@ -102,13 +102,13 @@
         <div>
           Sort order for systems submitted to WMT2024:
           <select
-            name="averages_sort_order"
-            id="averages_sort_order"
+            name="system_averages_sort_order"
+            id="system_averages_sort_order"
             title="Sort order for systems submitted to WMT2024"
           ></select>
         </div>
       </div>
-      <div id="averages_plots" class="grid-container"></div>
+      <div id="system_averages_plots" class="grid-container"></div>
     </section>
 
     <section id="empties" class="md-typeset">
@@ -120,10 +120,10 @@
         Each subfigure shows the scores assigned to the 10 items in each
         category, with the vertical red lines indicating the lowest and highest
         scores assigned by this metric to any of the WMT news test data for any
-        submitted MT system. <span id="pwps_langpair"></span> scores assigned to
-        text when paired with empty source and reference. Red vertical lines
-        indicate the minimum and maximum scores assigned over all WMT News
-        primary submission data.
+        submitted MT system. <span id="system_averages_langpair"></span> scores
+        assigned to text when paired with empty source and reference. Red
+        vertical lines indicate the minimum and maximum scores assigned over all
+        WMT News primary submission data.
       </p>
       <p>
         Each subfigure shows the scores assigned to the 10 items in each
@@ -135,8 +135,8 @@
       <div class="heading">
         Available language pairs:
         <select
-          name="pwps_langpairs"
-          id="pwps_langpairs"
+          name="system_averages_langpairs"
+          id="system_averages_langpairs"
           title="Available language pairs"
         >
           <optgroup label="Empty Input">
@@ -199,7 +199,7 @@
     </script>
 
     <script type="module">
-      import plot from "./confidence_interval_chart.mjs";
+      import plot from "./system_averages_chart.mjs";
 
       const selection = document.getElementById("ci_langpairs");
       selection.onchange = async (e) => {
@@ -207,8 +207,8 @@
         document.getElementById("ci_langpair").textContent =
           e.target.options[e.target.selectedIndex].text;
         await plot(
-          "#averages_plots",
-          "#averages_sort_order",
+          "#system_averages_plots",
+          "#system_averages_sort_order",
           `hum-sysavg/hum-${selected}-sysavg`,
         );
       };
@@ -218,12 +218,12 @@
     </script>
 
     <script type="module">
-      import plot from "./pwps_chart.mjs";
+      import plot from "./empties_chart.mjs";
 
-      const selection = document.getElementById("pwps_langpairs");
+      const selection = document.getElementById("system_averages_langpairs");
       selection.onchange = async (e) => {
         const selected = e.currentTarget.value;
-        document.getElementById("pwps_langpair").textContent =
+        document.getElementById("system_averages_langpair").textContent =
           e.target.options[e.target.selectedIndex].text;
         await plot(
           "#empties_plots",
