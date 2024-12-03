@@ -71,15 +71,15 @@ function graph(data, selector, sort_order_selector) {
         Plot.dot(data.values, {
           tip: {
             format: {
-              "system_id": true,
-              "score": true,
-              "error bars": true,
+              "system id": true,
+              "score": (d) => d.toFixed(3),
+              "error bars": ([l, h]) => `[${l.toFixed(3)}, ${h.toFixed(3)}]`,
             }
           },
           channels: {
             system_id: "system_id",
             score: "score",
-            "error bars": ({ score, ci_low, ci_high }) => `[${score - ci_low}, ${score + ci_high}]`,
+            "error bars": ({ score, ci_low, ci_high }) => [score - ci_low, score + ci_high],
           },
           x: "system_id",
           y: "score",

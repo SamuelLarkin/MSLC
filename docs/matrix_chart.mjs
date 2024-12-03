@@ -94,7 +94,18 @@ function graph(data_, selector, metric_selector) {
               Plot.dot(
                 data,
                 {
-                  tip: true,
+                  channels: {
+                    system_id: "system_id",
+                    segment_id: "segment_id",
+                  },
+                  tip: {
+                    format: {
+                      system_id: true,
+                      segment_id: true,
+                      x: (d) => `${d.toFixed(3)}`,
+                      y: (d) => `${d.toFixed(3)}`,
+                    },
+                  },
                   x: fx,
                   y: fy,
                   stroke: "system_id",
@@ -157,7 +168,7 @@ function graph(data_, selector, metric_selector) {
         ]
       })
 
-      return svg`<g>${chart}`;
+      return svg`< g > ${chart}`;
     }
   }
 
@@ -207,9 +218,9 @@ function graph(data_, selector, metric_selector) {
           .selectAll("svg")
           .classed("highlight", true);
         // Add the same class to the corresponding series.
-        d3.selectAll(`${selector} circle[stroke="${current_color}"]`)
+        d3.selectAll(`${selector} circle[stroke = "${current_color}"]`)
           .classed("highlight", true);
-        d3.selectAll(`${selector} rect[fill="${current_color}"]`)
+        d3.selectAll(`${selector} rect[fill = "${current_color}"]`)
           .classed("highlight", true);
       })
       .on("mouseout", function (_event, _d) {
