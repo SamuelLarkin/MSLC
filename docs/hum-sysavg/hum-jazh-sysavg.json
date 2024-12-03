@@ -1,7 +1,6 @@
 [
   {
     "metric": "BERTScore",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -13,7 +12,7 @@
         "system_id": "B",
         "score": 0.6322,
         "ci_low": 0.0084,
-        "ci_high": 0.0090
+        "ci_high": 0.009
       },
       {
         "system_id": "C",
@@ -31,13 +30,13 @@
         "system_id": "E",
         "score": 0.7829,
         "ci_low": 0.0077,
-        "ci_high": 0.0080
+        "ci_high": 0.008
       },
       {
         "system_id": "F*",
         "score": 0.8164,
         "ci_low": 0.0069,
-        "ci_high": 0.0070
+        "ci_high": 0.007
       },
       {
         "system_id": "ONLINE-B",
@@ -48,7 +47,7 @@
       {
         "system_id": "IKUN-C",
         "score": 0.8108,
-        "ci_low": 0.0070,
+        "ci_low": 0.007,
         "ci_high": 0.0074
       },
       {
@@ -121,18 +120,17 @@
   },
   {
     "metric": "BLEU",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
         "score": 0.5049,
-        "ci_low": 0.0940,
+        "ci_low": 0.094,
         "ci_high": 0.1118
       },
       {
         "system_id": "B",
-        "score": 6.9270,
-        "ci_low": 1.3880,
+        "score": 6.927,
+        "ci_low": 1.388,
         "ci_high": 1.7716
       },
       {
@@ -163,7 +161,7 @@
         "system_id": "ONLINE-B",
         "score": 49.6842,
         "ci_low": 2.2673,
-        "ci_high": 2.3030
+        "ci_high": 2.303
       },
       {
         "system_id": "IKUN-C",
@@ -187,7 +185,7 @@
         "system_id": "Team-J",
         "score": 35.6784,
         "ci_low": 1.8179,
-        "ci_high": 1.8620
+        "ci_high": 1.862
       },
       {
         "system_id": "Aya23",
@@ -197,13 +195,13 @@
       },
       {
         "system_id": "CommandR-plus",
-        "score": 38.6610,
+        "score": 38.661,
         "ci_low": 1.8536,
         "ci_high": 2.0906
       },
       {
         "system_id": "Unbabel-Tower70B",
-        "score": 39.0110,
+        "score": 39.011,
         "ci_low": 2.0109,
         "ci_high": 2.0929
       },
@@ -215,7 +213,7 @@
       },
       {
         "system_id": "DLUT_GTCOM",
-        "score": 43.2110,
+        "score": 43.211,
         "ci_low": 1.9824,
         "ci_high": 2.1695
       },
@@ -241,7 +239,6 @@
   },
   {
     "metric": "BLEURT-20",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -258,19 +255,19 @@
       {
         "system_id": "C",
         "score": 0.2988,
-        "ci_low": 0.0210,
+        "ci_low": 0.021,
         "ci_high": 0.0214
       },
       {
         "system_id": "D",
-        "score": 0.3990,
+        "score": 0.399,
         "ci_low": 0.0207,
         "ci_high": 0.0239
       },
       {
         "system_id": "E",
         "score": 0.4593,
-        "ci_low": 0.0200,
+        "ci_low": 0.02,
         "ci_high": 0.0215
       },
       {
@@ -295,12 +292,12 @@
         "system_id": "Llama3-70B",
         "score": 0.6719,
         "ci_low": 0.0126,
-        "ci_high": 0.0130
+        "ci_high": 0.013
       },
       {
         "system_id": "NTTSU",
         "score": 0.6691,
-        "ci_low": 0.0130,
+        "ci_low": 0.013,
         "ci_high": 0.0124
       },
       {
@@ -311,13 +308,13 @@
       },
       {
         "system_id": "Aya23",
-        "score": 0.6660,
+        "score": 0.666,
         "ci_low": 0.0136,
         "ci_high": 0.0137
       },
       {
         "system_id": "CommandR-plus",
-        "score": 0.6850,
+        "score": 0.685,
         "ci_low": 0.0123,
         "ci_high": 0.0131
       },
@@ -331,7 +328,7 @@
         "system_id": "IOL_Research",
         "score": 0.6969,
         "ci_low": 0.0121,
-        "ci_high": 0.0120
+        "ci_high": 0.012
       },
       {
         "system_id": "DLUT_GTCOM",
@@ -343,12 +340,12 @@
         "system_id": "Gemini-1.5-Pro",
         "score": 0.7111,
         "ci_low": 0.0104,
-        "ci_high": 0.0110
+        "ci_high": 0.011
       },
       {
         "system_id": "GPT-4",
         "score": 0.7016,
-        "ci_low": 0.0120,
+        "ci_low": 0.012,
         "ci_high": 0.0114
       },
       {
@@ -361,7 +358,6 @@
   },
   {
     "metric": "COMET-22",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -390,13 +386,13 @@
       {
         "system_id": "E",
         "score": 0.6877,
-        "ci_low": 0.0160,
+        "ci_low": 0.016,
         "ci_high": 0.0148
       },
       {
         "system_id": "F*",
         "score": 0.7777,
-        "ci_low": 0.0120,
+        "ci_low": 0.012,
         "ci_high": 0.0123
       },
       {
@@ -467,7 +463,7 @@
       },
       {
         "system_id": "GPT-4",
-        "score": 0.8740,
+        "score": 0.874,
         "ci_low": 0.0068,
         "ci_high": 0.0065
       },
@@ -481,11 +477,10 @@
   },
   {
     "metric": "CometKiwi",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
-        "score": 0.3170,
+        "score": 0.317,
         "ci_low": 0.0076,
         "ci_high": 0.0079
       },
@@ -499,7 +494,7 @@
         "system_id": "C",
         "score": 0.3817,
         "ci_low": 0.0133,
-        "ci_high": 0.0150
+        "ci_high": 0.015
       },
       {
         "system_id": "D",
@@ -540,7 +535,7 @@
       {
         "system_id": "NTTSU",
         "score": 0.8019,
-        "ci_low": 0.0100,
+        "ci_low": 0.01,
         "ci_high": 0.0094
       },
       {
@@ -553,7 +548,7 @@
         "system_id": "Aya23",
         "score": 0.7841,
         "ci_low": 0.0106,
-        "ci_high": 0.0100
+        "ci_high": 0.01
       },
       {
         "system_id": "CommandR-plus",
@@ -565,7 +560,7 @@
         "system_id": "Unbabel-Tower70B",
         "score": 0.8309,
         "ci_low": 0.0069,
-        "ci_high": 0.0070
+        "ci_high": 0.007
       },
       {
         "system_id": "IOL_Research",
@@ -595,19 +590,18 @@
         "system_id": "Claude-3.5",
         "score": 0.8144,
         "ci_low": 0.0095,
-        "ci_high": 0.0090
+        "ci_high": 0.009
       }
     ]
   },
   {
     "metric": "GEMBA-ESA",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
-        "score": 0.0000,
-        "ci_low": 0.0000,
-        "ci_high": 0.0000
+        "score": 0,
+        "ci_low": 0,
+        "ci_high": 0
       },
       {
         "system_id": "B",
@@ -619,13 +613,13 @@
         "system_id": "C",
         "score": 13.9373,
         "ci_low": 2.5216,
-        "ci_high": 3.0000
+        "ci_high": 3
       },
       {
         "system_id": "D",
         "score": 35.3804,
         "ci_low": 2.8784,
-        "ci_high": 3.0000
+        "ci_high": 3
       },
       {
         "system_id": "E",
@@ -661,18 +655,18 @@
         "system_id": "NTTSU",
         "score": 88.8235,
         "ci_low": 2.1529,
-        "ci_high": 2.0510
+        "ci_high": 2.051
       },
       {
         "system_id": "Team-J",
         "score": 86.8275,
         "ci_low": 2.0784,
-        "ci_high": 2.2510
+        "ci_high": 2.251
       },
       {
         "system_id": "Aya23",
         "score": 88.4745,
-        "ci_low": 2.0510,
+        "ci_low": 2.051,
         "ci_high": 1.9647
       },
       {
@@ -702,7 +696,7 @@
       {
         "system_id": "Gemini-1.5-Pro",
         "score": 96.6196,
-        "ci_low": 1.1490,
+        "ci_low": 1.149,
         "ci_high": 1.0745
       },
       {
@@ -713,7 +707,7 @@
       },
       {
         "system_id": "Claude-3.5",
-        "score": 97.8510,
+        "score": 97.851,
         "ci_low": 0.8353,
         "ci_high": 0.7569
       }
@@ -721,7 +715,6 @@
   },
   {
     "metric": "MEE4",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -792,7 +785,7 @@
       {
         "system_id": "Aya23",
         "score": 0.7005,
-        "ci_low": 0.0080,
+        "ci_low": 0.008,
         "ci_high": 0.0085
       },
       {
@@ -835,13 +828,12 @@
         "system_id": "Claude-3.5",
         "score": 0.7217,
         "ci_low": 0.0073,
-        "ci_high": 0.0080
+        "ci_high": 0.008
       }
     ]
   },
   {
     "metric": "MQM",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "F*",
@@ -863,7 +855,7 @@
       },
       {
         "system_id": "Llama3-70B",
-        "score": -2.1580,
+        "score": -2.158,
         "ci_low": 0.6086,
         "ci_high": 0.5482
       },
@@ -905,7 +897,7 @@
       },
       {
         "system_id": "DLUT_GTCOM",
-        "score": -1.0580,
+        "score": -1.058,
         "ci_low": 0.4824,
         "ci_high": 0.3792
       },
@@ -917,7 +909,7 @@
       },
       {
         "system_id": "GPT-4",
-        "score": -0.8180,
+        "score": -0.818,
         "ci_low": 0.2482,
         "ci_high": 0.2475
       },
@@ -931,7 +923,6 @@
   },
   {
     "metric": "MetricX-24-Hybrid",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -977,7 +968,7 @@
       },
       {
         "system_id": "IKUN-C",
-        "score": -5.9280,
+        "score": -5.928,
         "ci_low": 0.3196,
         "ci_high": 0.3097
       },
@@ -1007,7 +998,7 @@
       },
       {
         "system_id": "CommandR-plus",
-        "score": -4.8460,
+        "score": -4.846,
         "ci_low": 0.2167,
         "ci_high": 0.2068
       },
@@ -1015,7 +1006,7 @@
         "system_id": "Unbabel-Tower70B",
         "score": -4.1916,
         "ci_low": 0.1694,
-        "ci_high": 0.1800
+        "ci_high": 0.18
       },
       {
         "system_id": "IOL_Research",
@@ -1044,14 +1035,13 @@
       {
         "system_id": "Claude-3.5",
         "score": -4.3776,
-        "ci_low": 0.1780,
+        "ci_low": 0.178,
         "ci_high": 0.1696
       }
     ]
   },
   {
     "metric": "MetricX-24-Hybrid-QE",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -1062,12 +1052,12 @@
       {
         "system_id": "B",
         "score": -16.3596,
-        "ci_low": 0.3820,
+        "ci_low": 0.382,
         "ci_high": 0.4395
       },
       {
         "system_id": "C",
-        "score": -14.6930,
+        "score": -14.693,
         "ci_low": 0.4209,
         "ci_high": 0.4738
       },
@@ -1097,8 +1087,8 @@
       },
       {
         "system_id": "IKUN-C",
-        "score": -6.2660,
-        "ci_low": 0.3560,
+        "score": -6.266,
+        "ci_low": 0.356,
         "ci_high": 0.3387
       },
       {
@@ -1117,7 +1107,7 @@
         "system_id": "Team-J",
         "score": -4.8806,
         "ci_low": 0.2068,
-        "ci_high": 0.2020
+        "ci_high": 0.202
       },
       {
         "system_id": "Aya23",
@@ -1171,7 +1161,6 @@
   },
   {
     "metric": "PrismRefMedium",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -1205,7 +1194,7 @@
       },
       {
         "system_id": "F*",
-        "score": -1.5560,
+        "score": -1.556,
         "ci_low": 0.0599,
         "ci_high": 0.0687
       },
@@ -1223,8 +1212,8 @@
       },
       {
         "system_id": "Llama3-70B",
-        "score": -1.2960,
-        "ci_low": 0.0570,
+        "score": -1.296,
+        "ci_low": 0.057,
         "ci_high": 0.0571
       },
       {
@@ -1265,7 +1254,7 @@
       },
       {
         "system_id": "DLUT_GTCOM",
-        "score": -1.1240,
+        "score": -1.124,
         "ci_low": 0.0549,
         "ci_high": 0.0543
       },
@@ -1291,7 +1280,6 @@
   },
   {
     "metric": "PrismRefSmall",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -1301,7 +1289,7 @@
       },
       {
         "system_id": "B",
-        "score": -3.2950,
+        "score": -3.295,
         "ci_low": 0.0894,
         "ci_high": 0.0894
       },
@@ -1325,13 +1313,13 @@
       },
       {
         "system_id": "F*",
-        "score": -1.7720,
+        "score": -1.772,
         "ci_low": 0.0666,
         "ci_high": 0.0696
       },
       {
         "system_id": "ONLINE-B",
-        "score": -1.3400,
+        "score": -1.34,
         "ci_low": 0.0666,
         "ci_high": 0.0653
       },
@@ -1355,7 +1343,7 @@
       },
       {
         "system_id": "Team-J",
-        "score": -1.4500,
+        "score": -1.45,
         "ci_low": 0.0586,
         "ci_high": 0.0545
       },
@@ -1375,7 +1363,7 @@
         "system_id": "Unbabel-Tower70B",
         "score": -1.3882,
         "ci_low": 0.0574,
-        "ci_high": 0.0610
+        "ci_high": 0.061
       },
       {
         "system_id": "IOL_Research",
@@ -1393,7 +1381,7 @@
         "system_id": "Gemini-1.5-Pro",
         "score": -1.3239,
         "ci_low": 0.0576,
-        "ci_high": 0.0570
+        "ci_high": 0.057
       },
       {
         "system_id": "GPT-4",
@@ -1411,7 +1399,6 @@
   },
   {
     "metric": "XCOMET",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -1477,11 +1464,11 @@
         "system_id": "Team-J",
         "score": 0.7064,
         "ci_low": 0.0233,
-        "ci_high": 0.0200
+        "ci_high": 0.02
       },
       {
         "system_id": "Aya23",
-        "score": 0.6920,
+        "score": 0.692,
         "ci_low": 0.0235,
         "ci_high": 0.0221
       },
@@ -1507,7 +1494,7 @@
         "system_id": "DLUT_GTCOM",
         "score": 0.7674,
         "ci_low": 0.0182,
-        "ci_high": 0.0200
+        "ci_high": 0.02
       },
       {
         "system_id": "Gemini-1.5-Pro",
@@ -1531,7 +1518,6 @@
   },
   {
     "metric": "XCOMET-QE",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -1543,7 +1529,7 @@
         "system_id": "B",
         "score": 0.0511,
         "ci_low": 0.0212,
-        "ci_high": 0.0210
+        "ci_high": 0.021
       },
       {
         "system_id": "C",
@@ -1597,7 +1583,7 @@
         "system_id": "Team-J",
         "score": 0.5704,
         "ci_low": 0.0261,
-        "ci_high": 0.0280
+        "ci_high": 0.028
       },
       {
         "system_id": "Aya23",
@@ -1621,7 +1607,7 @@
         "system_id": "IOL_Research",
         "score": 0.6675,
         "ci_low": 0.0217,
-        "ci_high": 0.0240
+        "ci_high": 0.024
       },
       {
         "system_id": "DLUT_GTCOM",
@@ -1632,7 +1618,7 @@
       {
         "system_id": "Gemini-1.5-Pro",
         "score": 0.6709,
-        "ci_low": 0.0230,
+        "ci_low": 0.023,
         "ci_high": 0.0245
       },
       {
@@ -1651,12 +1637,11 @@
   },
   {
     "metric": "XLsimMqm",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
         "score": 0.8586,
-        "ci_low": 0.0040,
+        "ci_low": 0.004,
         "ci_high": 0.0039
       },
       {
@@ -1667,7 +1652,7 @@
       },
       {
         "system_id": "C",
-        "score": 0.9290,
+        "score": 0.929,
         "ci_low": 0.0036,
         "ci_high": 0.0035
       },
@@ -1685,14 +1670,14 @@
       },
       {
         "system_id": "F*",
-        "score": 0.9470,
+        "score": 0.947,
         "ci_low": 0.0028,
         "ci_high": 0.0026
       },
       {
         "system_id": "ONLINE-B",
         "score": 0.9478,
-        "ci_low": 0.0020,
+        "ci_low": 0.002,
         "ci_high": 0.0021
       },
       {
@@ -1717,7 +1702,7 @@
         "system_id": "Team-J",
         "score": 0.9485,
         "ci_low": 0.0021,
-        "ci_high": 0.0020
+        "ci_high": 0.002
       },
       {
         "system_id": "Aya23",
@@ -1763,7 +1748,7 @@
       },
       {
         "system_id": "Claude-3.5",
-        "score": 0.9470,
+        "score": 0.947,
         "ci_low": 0.0022,
         "ci_high": 0.0023
       }
@@ -1771,7 +1756,6 @@
   },
   {
     "metric": "YiSi-1",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -1866,7 +1850,7 @@
       {
         "system_id": "DLUT_GTCOM",
         "score": 0.8651,
-        "ci_low": 0.0060,
+        "ci_low": 0.006,
         "ci_high": 0.0063
       },
       {
@@ -1878,20 +1862,19 @@
       {
         "system_id": "GPT-4",
         "score": 0.8621,
-        "ci_low": 0.0070,
+        "ci_low": 0.007,
         "ci_high": 0.0067
       },
       {
         "system_id": "Claude-3.5",
         "score": 0.8661,
-        "ci_low": 0.0060,
+        "ci_low": 0.006,
         "ci_high": 0.0061
       }
     ]
   },
   {
     "metric": "chrF",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -1920,7 +1903,7 @@
       {
         "system_id": "E",
         "score": 22.5212,
-        "ci_low": 1.8010,
+        "ci_low": 1.801,
         "ci_high": 1.9824
       },
       {
@@ -1950,7 +1933,7 @@
       {
         "system_id": "NTTSU",
         "score": 28.9502,
-        "ci_low": 1.5990,
+        "ci_low": 1.599,
         "ci_high": 1.7733
       },
       {
@@ -1980,7 +1963,7 @@
       {
         "system_id": "IOL_Research",
         "score": 36.7035,
-        "ci_low": 1.7030,
+        "ci_low": 1.703,
         "ci_high": 1.9271
       },
       {
@@ -2005,31 +1988,30 @@
         "system_id": "Claude-3.5",
         "score": 39.0793,
         "ci_low": 1.9574,
-        "ci_high": 2.2180
+        "ci_high": 2.218
       }
     ]
   },
   {
     "metric": "chrfS",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
-        "score": 0.0650,
+        "score": 0.065,
         "ci_low": 0.0059,
         "ci_high": 0.0063
       },
       {
         "system_id": "B",
         "score": 0.3198,
-        "ci_low": 0.0130,
+        "ci_low": 0.013,
         "ci_high": 0.0124
       },
       {
         "system_id": "C",
         "score": 0.4151,
         "ci_low": 0.0119,
-        "ci_high": 0.0120
+        "ci_high": 0.012
       },
       {
         "system_id": "D",
@@ -2063,13 +2045,13 @@
       },
       {
         "system_id": "Llama3-70B",
-        "score": 0.5810,
+        "score": 0.581,
         "ci_low": 0.0089,
         "ci_high": 0.0095
       },
       {
         "system_id": "NTTSU",
-        "score": 0.5640,
+        "score": 0.564,
         "ci_low": 0.0082,
         "ci_high": 0.0076
       },
@@ -2111,7 +2093,7 @@
       },
       {
         "system_id": "Gemini-1.5-Pro",
-        "score": 0.6170,
+        "score": 0.617,
         "ci_low": 0.0097,
         "ci_high": 0.0093
       },
@@ -2131,7 +2113,6 @@
   },
   {
     "metric": "damonmonli",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -2196,7 +2177,7 @@
       {
         "system_id": "Team-J",
         "score": 51.5339,
-        "ci_low": 0.5180,
+        "ci_low": 0.518,
         "ci_high": 0.5169
       },
       {
@@ -2219,7 +2200,7 @@
       },
       {
         "system_id": "IOL_Research",
-        "score": 52.3070,
+        "score": 52.307,
         "ci_low": 0.4612,
         "ci_high": 0.4661
       },
@@ -2232,7 +2213,7 @@
       {
         "system_id": "Gemini-1.5-Pro",
         "score": 52.0679,
-        "ci_low": 0.5290,
+        "ci_low": 0.529,
         "ci_high": 0.4802
       },
       {
@@ -2251,11 +2232,10 @@
   },
   {
     "metric": "metametrics_mt_mqm_hybrid",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
-        "score": 0.1360,
+        "score": 0.136,
         "ci_low": 0.0119,
         "ci_high": 0.0141
       },
@@ -2269,7 +2249,7 @@
         "system_id": "C",
         "score": 0.4042,
         "ci_low": 0.0455,
-        "ci_high": 0.0460
+        "ci_high": 0.046
       },
       {
         "system_id": "D",
@@ -2299,7 +2279,7 @@
         "system_id": "IKUN-C",
         "score": 1.1955,
         "ci_low": 0.0328,
-        "ci_high": 0.0300
+        "ci_high": 0.03
       },
       {
         "system_id": "Llama3-70B",
@@ -2311,7 +2291,7 @@
         "system_id": "NTTSU",
         "score": 1.2449,
         "ci_low": 0.0199,
-        "ci_high": 0.0200
+        "ci_high": 0.02
       },
       {
         "system_id": "Team-J",
@@ -2334,7 +2314,7 @@
       {
         "system_id": "Unbabel-Tower70B",
         "score": 1.3379,
-        "ci_low": 0.0120,
+        "ci_low": 0.012,
         "ci_high": 0.0111
       },
       {
@@ -2345,7 +2325,7 @@
       },
       {
         "system_id": "DLUT_GTCOM",
-        "score": 1.3270,
+        "score": 1.327,
         "ci_low": 0.0119,
         "ci_high": 0.0115
       },
@@ -2353,7 +2333,7 @@
         "system_id": "Gemini-1.5-Pro",
         "score": 1.3256,
         "ci_low": 0.0123,
-        "ci_high": 0.0110
+        "ci_high": 0.011
       },
       {
         "system_id": "GPT-4",
@@ -2371,7 +2351,6 @@
   },
   {
     "metric": "metametrics_mt_mqm_qe",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -2388,7 +2367,7 @@
       {
         "system_id": "C",
         "score": 0.4039,
-        "ci_low": 0.0340,
+        "ci_low": 0.034,
         "ci_high": 0.0357
       },
       {
@@ -2401,11 +2380,11 @@
         "system_id": "E",
         "score": 0.7168,
         "ci_low": 0.0315,
-        "ci_high": 0.0320
+        "ci_high": 0.032
       },
       {
         "system_id": "F*",
-        "score": 0.8940,
+        "score": 0.894,
         "ci_low": 0.0258,
         "ci_high": 0.0239
       },
@@ -2453,7 +2432,7 @@
       },
       {
         "system_id": "Unbabel-Tower70B",
-        "score": 1.0660,
+        "score": 1.066,
         "ci_low": 0.0114,
         "ci_high": 0.0119
       },
@@ -2483,15 +2462,14 @@
       },
       {
         "system_id": "Claude-3.5",
-        "score": 1.0350,
-        "ci_low": 0.0140,
+        "score": 1.035,
+        "ci_low": 0.014,
         "ci_high": 0.0135
       }
     ]
   },
   {
     "metric": "sentinel-cand",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -2521,7 +2499,7 @@
         "system_id": "E",
         "score": -1.0036,
         "ci_low": 0.1076,
-        "ci_high": 0.1170
+        "ci_high": 0.117
       },
       {
         "system_id": "F*",
@@ -2531,7 +2509,7 @@
       },
       {
         "system_id": "ONLINE-B",
-        "score": -0.0140,
+        "score": -0.014,
         "ci_low": 0.0583,
         "ci_high": 0.0532
       },
@@ -2586,7 +2564,7 @@
       {
         "system_id": "DLUT_GTCOM",
         "score": 0.0758,
-        "ci_low": 0.0450,
+        "ci_low": 0.045,
         "ci_high": 0.0434
       },
       {
@@ -2611,7 +2589,6 @@
   },
   {
     "metric": "sentinel-ref",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -2658,14 +2635,14 @@
       {
         "system_id": "IKUN-C",
         "score": -0.1597,
-        "ci_low": 0.0690,
+        "ci_low": 0.069,
         "ci_high": 0.0688
       },
       {
         "system_id": "Llama3-70B",
         "score": -0.1597,
         "ci_low": 0.0713,
-        "ci_high": 0.0650
+        "ci_high": 0.065
       },
       {
         "system_id": "NTTSU",
@@ -2707,7 +2684,7 @@
         "system_id": "DLUT_GTCOM",
         "score": -0.1597,
         "ci_low": 0.0716,
-        "ci_high": 0.0680
+        "ci_high": 0.068
       },
       {
         "system_id": "Gemini-1.5-Pro",
@@ -2719,19 +2696,18 @@
         "system_id": "GPT-4",
         "score": -0.1597,
         "ci_low": 0.0758,
-        "ci_high": 0.0740
+        "ci_high": 0.074
       },
       {
         "system_id": "Claude-3.5",
         "score": -0.1597,
         "ci_low": 0.0717,
-        "ci_high": 0.0700
+        "ci_high": 0.07
       }
     ]
   },
   {
     "metric": "sentinel-src",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -2742,7 +2718,7 @@
       {
         "system_id": "B",
         "score": -0.2495,
-        "ci_low": 0.0590,
+        "ci_low": 0.059,
         "ci_high": 0.0628
       },
       {
@@ -2820,13 +2796,13 @@
       {
         "system_id": "IOL_Research",
         "score": -0.2495,
-        "ci_low": 0.0590,
+        "ci_low": 0.059,
         "ci_high": 0.0574
       },
       {
         "system_id": "DLUT_GTCOM",
         "score": -0.2495,
-        "ci_low": 0.0610,
+        "ci_low": 0.061,
         "ci_high": 0.0614
       },
       {
@@ -2851,7 +2827,6 @@
   },
   {
     "metric": "spBLEU",
-    "langpair": "ja-zh",
     "values": [
       {
         "system_id": "A",
@@ -2863,23 +2838,23 @@
         "system_id": "B",
         "score": 6.1522,
         "ci_low": 1.3075,
-        "ci_high": 1.5310
+        "ci_high": 1.531
       },
       {
         "system_id": "C",
         "score": 11.7296,
-        "ci_low": 1.6800,
-        "ci_high": 1.8150
+        "ci_low": 1.68,
+        "ci_high": 1.815
       },
       {
         "system_id": "D",
         "score": 16.5383,
-        "ci_low": 1.9870,
+        "ci_low": 1.987,
         "ci_high": 2.1582
       },
       {
         "system_id": "E",
-        "score": 20.0780,
+        "score": 20.078,
         "ci_low": 2.2887,
         "ci_high": 2.3647
       },
@@ -2904,7 +2879,7 @@
       {
         "system_id": "Llama3-70B",
         "score": 31.8605,
-        "ci_low": 2.1430,
+        "ci_low": 2.143,
         "ci_high": 2.2743
       },
       {
@@ -2935,7 +2910,7 @@
         "system_id": "Unbabel-Tower70B",
         "score": 35.6937,
         "ci_low": 2.1682,
-        "ci_high": 2.2140
+        "ci_high": 2.214
       },
       {
         "system_id": "IOL_Research",
@@ -2947,7 +2922,7 @@
         "system_id": "DLUT_GTCOM",
         "score": 39.4833,
         "ci_low": 2.1417,
-        "ci_high": 2.0390
+        "ci_high": 2.039
       },
       {
         "system_id": "Gemini-1.5-Pro",
