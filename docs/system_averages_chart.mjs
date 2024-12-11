@@ -65,8 +65,6 @@ function graph(data, selector, sort_order_selector) {
       style: { fontSize: "1.0em", },
       title: data.metric,
       marks: [
-        // Y-axis from 0 to 1 with 10 subtick
-        // Plot.axisY(d3.ticks(0, 1, 10)),
         // Add metric's score per system.
         Plot.dot(data.values, {
           tip: {
