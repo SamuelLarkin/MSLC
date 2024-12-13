@@ -59,4 +59,4 @@ markdown_extensions:
       permalink: true
 nav:
   - Home: README.md
-  - Graphs: charts.html
+  - Graphs: 2024/interactive/charts.html
