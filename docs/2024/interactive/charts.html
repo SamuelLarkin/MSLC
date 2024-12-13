@@ -132,15 +132,6 @@
       </h1>
       <p>
         Each subfigure shows the scores assigned to the 10 items in each
-        category, with the vertical red lines indicating the lowest and highest
-        scores assigned by this metric to any of the WMT news test data for any
-        submitted MT system. <span id="system_averages_langpair"></span> scores
-        assigned to text when paired with empty source and reference. Red
-        vertical lines indicate the minimum and maximum scores assigned over all
-        WMT News primary submission data.
-      </p>
-      <p>
-        Each subfigure shows the scores assigned to the 10 items in each
         category (punctuation, words, phrases, or sentences/full segments), with
         the vertical red lines indicating the lowest and highest scores assigned
         by this metric to any of the WMT news test data for any submitted MT
@@ -237,8 +228,6 @@
       const selection = document.getElementById("system_averages_langpairs");
       selection.onchange = async (e) => {
         const selected = e.currentTarget.value;
-        document.getElementById("system_averages_langpair").textContent =
-          e.target.options[e.target.selectedIndex].text;
         await plot(
           "#empties_plots",
           `empties/${selected}-data`,
