@@ -1,1 +1,1 @@
-# MSLC Graphs 2024
+# MSLC Graphs
